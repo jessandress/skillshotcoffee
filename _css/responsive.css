@@ -1,0 +1,231 @@
+@media screen and (max-width: 900px) {
+    .menu-section .tab-inner .column {
+        margin-right: 10px;
+        padding: 20px 30px;
+    }
+
+    .about-section .tinyprint-block {
+        padding: 30px;
+    }
+
+    .about-section .left-side {
+        margin-right: 0;
+        padding-right: 40px;
+    }
+
+    .about-section .features li span:not(.icon-wrap) {
+        width: calc(100% - 60px);
+        margin-left: 3px;
+    }
+
+    .main-footer .footer-nav ul {
+        margin-right: 50px;
+    }
+
+    .about-section .about-image {
+        height: 265px;
+    }
+
+    .hero-section {
+        padding-bottom: 20.493776vh;
+        padding-top: 15vh;
+    }
+
+    .hero-section .hero-arrows-wrapper {
+        left: -200px;
+    }
+
+    .hero-section .hero-arrows-wrapper img {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .main-header .top-nav-bar ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .main-header .top-nav-bar ul li {
+        line-height: 20px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .hero-section .hero-btn-wrapper .hero-btn {
+    	margin-right: 0;
+    	font-size: 17px;
+    	height: 38px;
+    	line-height: 38px;
+    	margin-right: 10px;
+    }
+
+    .main-header .top-nav-bar ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .menu-section .tab-inner {
+        flex-direction: column;
+    }
+
+    .about-section {
+        padding: 40px 0;
+    }
+
+    .about-section .about-text {
+        flex-direction: column;
+    }
+
+    .about-section .left-side,
+    .about-section .right-side {
+        width: 100%;
+        flex-basis: 100%;
+    }
+
+    .about-section .tinyprint-block {
+        flex-direction: column;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .about-section .tinyprint-block .tinyprint-image {
+        flex-basis: 100%;
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .about-section .tinyprint-block .tinyprint-image img {
+        max-width: 100%;
+    }
+
+
+    .about-section .tinyprint-block .tinyprint-text h2,
+    .about-section .tinyprint-block .tinyprint-text p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-footer .footer-credits1 .footer-credits2 .footer-copyright {
+        text-align: center;
+    }
+
+    .main-footer .footer-nav {
+        flex-direction: column;
+    }
+
+    .main-footer .footer-nav ul {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .main-footer .footer-logo {
+        margin-bottom: 30px;
+    }
+
+    .main-footer .footer-nav ul li {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-section .about-image {
+        height: auto;
+        padding-top: 36%;
+    }
+
+    .about-section .about-image img {
+        max-width: 70%;
+    }
+
+    .menu-section .menu-section-title {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .menu-section .menu-section-title h2 {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .menu-section {
+        padding: 40px 0;
+        padding-bottom: 10px;
+    }
+
+    .menu-section .tab-inner .column {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .about-section .about-text-wrapper {
+        margin-top: 40px;
+    }
+
+    .about-section .left-side {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .about-section .features li img {
+        max-width: 40px;
+    }
+
+    .about-section .features li span:not(.icon-wrap) {
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 0;
+    }
+
+    .about-section .tinyprint-block .tinyprint-text h2 {
+        margin-bottom: 10px;
+    }
+
+    .about-section .tinyprint-block .tinyprint-text {
+        text-align: center;
+    }
+
+    .main-footer .footer-copyright p {
+        margin-top: 10px;
+    }
+
+    .main-footer {
+        padding: 40px 0;
+    }
+
+    .hero-section .hero-title h1 {
+        font-size: 40px;
+    }
+
+    .hero-section .logo {
+        padding-bottom: 7.006397vh;
+    }
+
+    .hero-section {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .menu-section .tab-inner .column {
+    	padding-left: 20px;
+    	padding-right: 20px;
+    }
+    
+    .menu-section .tab-inner .column ul.menu-items li span {
+        font-size: 14px;
+    }
+    
+    .about-section .tinyprint-block .tinyprint-image {
+        max-width: 100%;
+    }
+    
+    .main-header .top-nav-bar ul li a:before {
+        display: none;
+    }
+
+}
